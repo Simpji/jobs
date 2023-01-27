@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,600&family=Poppins:ital,wght@0,100;0,300;0,500;0,800;1,600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+ font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --main-color: purple  !important;
+    --secondray-color:#e9967a !important;
+}
+/* .main{
+    background: url(/assets/img/job.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    width: 50%;
+} */
+
+/* carousel */
+.carousel-inner img{
+    height: 95vh;
+    background-position: top 70% center;
+}
+.lead{
+    color: rgb(0, 0, 82);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.red{
+    color: red;
+}
+.cat h1{
+    font-size: 2rem;
+    color: black;
+}
+.cat .card-body img{
+    width: 40%;
+    border-radius: 16px;
+}
+.carousel .carousel-caption{
+    font-size: 2rem;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.carousel-caption .lead{
+    font-size: 2rem;
+}
+.cat .card-body:hover{
+    color: rgb(0, 0, 82);
+    transform: scale(1.01) translateY(-5px);
+    background: transparent;
+    border: 1px solid rgb(0, 0, 82);
+   
+}
+.ayo{
+    text-shadow: .3rem .3rem .6rem rgb(0, 0, 82);
+}
+/* .simple .container img{
+    width: 120%;
+} */
+.simple .container .row p{
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+}
+.cont{
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+}
+ /* .container .card img{
+    height: 50vh;
+    width: 70vh;
+}  */
+
+.cont .row img{
+    height: 619px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .container  h1{
+    font-size: 2rem;
+    font-weight: 600;
+} */
+.cont p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.container .card-body p{
+    width: 3;
+}
+
+.pill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.container h1{
+    color: rgb(0, 0, 82);
+}
+.simp .card-body:hover{
+    color: rgb(0, 0, 82);
+    transform: scale(1.01) translateY(-5px);
+    background: transparent;
+    border: 1px solid rgb(0, 0, 82);
+}
+.pill :hover{
+    color: rgb(0, 0, 82);
+}
+
+.ioo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ioo >span{
+    color: rgb(0, 0, 82);
+
+}
+.cow{
+    color: rgb(0, 0, 82);
+}
+.come {
+    display: flex;
+    color: rgb(0, 0, 82);
+    align-items: center;
+    padding-left: 1rem;
+    gap: 7px;
+
+}
+.get{
+    color: green;
+}
+.hey{
+    display: flex;
+    color: green;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.hey :hover{
+    color: indigo;
+}
+/* .pet{
+   background: rgb(0, 0, 82);
+} */
+.pet{
+    background: url(/assets/img/img3.jpg) no-repeat;
+    /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+}
+
+.pet .dark{
+     /* background: rgba(90, 98, 205, 0.575);  */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    top: 0;
+}
+.pet span{
+    font-size: 2rem;
+    font-family: 400;
+   color: rgb(0, 0, 82); 
+}
+.go .container .card{
+    height: 50vh;
+    width: 140%;
+}
+.pan{
+    font-size: 1rem;
+    padding-left: 1rem;
+    gap: 3px;
+    color: rgb(0, 0, 82); 
+}
+.peter{
+    background: url(/assets/img/ajob.png) no-repeat;
+    /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+    margin: 2rem 10rem;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+}
+.front{
+    font-size: 2rem;
+    font-weight: 400;
+   color: rgb(0, 0, 82); 
+}
+.coco{
+    font-size: 2rem;
+    font-weight: 400;
+   color: rgb(0, 0, 82); 
+}
+
+.you{
+    display: flex;
+    column-gap: 85px;
+    padding-top: 1rem;
+}
+.code{
+    padding-top: 1rem;
+    text-align: center;
+}
+.todo{
+    text-align: center;
+    padding: 2rem;
+    text-shadow: .3rem .3rem .6rem green;
+}
+.bell{
+    display: flex;
+}
+.aib{
+    background: url(/assets/img/ten2.jpg) no-repeat;
+    /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+    margin: 2rem 10rem;
+    background-size: cover;
+    background-position: center center;
+    height: 45vh;
+    position: relative;
+}
+
+.container h2{
+    color: rgb(0, 0, 82);
+    font-size: 3rem;
+
+}
+.container p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.jes img{
+    width: 270%;
+}
+.pele .card:hover{
+    color: rgb(0, 0, 82);
+    transform: scale(1.01) translateY(-5px);
+    background: transparent;
+    border: 1px solid rgb(0, 0, 82);
+   
+}
+.cow:hover{
+    color: green;
+}
+
+ .content{
+            position: relative;
+            height: 50vh;
+            width: 100%;
+        }
+        .overlay{
+            position: absolute; 
+            /* background-color: black; */
+            opacity: 0.5;
+            height: 100%;
+            width: 100%;
+            top: 0; 
+        }   
+        video{
+            height: 100%;
+            width: 100%;
+        }
+        /* h6{
+            position: absolute;
+            z-index: 3;
+            top: 50%;
+            left: 50%;
+            color: white;
+            transform: translate(-50%,50%);
+        } */
+        .ret{
+            color: rgb(0, 0, 82);
+             transform: scale(1.01) translateY(-5px);
+             border-radius: 20px;
+             background: transparent;
+             padding: 1rem;
+       } 
+
+       .ret img{
+           width: 110%;
+       }
+       
+       .pl{
+          background: url(/assets/img/save.jpg) no-repeat;
+           /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+          background-size: cover;
+          background-position: center center;
+          height: 50vh;
+          position: relative;
+      }
+      .ter{
+          background: rgb(0, 0, 82);
+      }
+
+      .utt{
+         background: url(/assets/img/jkc.webp) no-repeat;
+         /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+         margin: 2rem 0;
+         background-size: cover;
+         background-position: center center;
+         height: 30vh;
+         position: relative;
+     }
+     .utt h1{
+         color: red;
+     }
+     .utt span{
+         font-size: 2rem;
+         font-weight: 500;
+         color: black;
+     }
+     /* .hull .container img{
+         width: 50%;
+         /* border: 1px solid red; */
+      /* */ 
+     .pek{
+         text-align: center;
+         padding: 25px;
+     }
+
+     .gell {
+         width: 100%;
+         height: 100%;
+     }
+      .rowkp ul{
+          margin: 0;
+          width: 100%;
+          background-color: rgb(0, 0, 82);
+          display: flex;
+          gap: 15px;
+          object-fit: cover;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+      }
+     .rowkp ul li{
+        list-style: none;
+        color: white;
+    }
+    .fet{
+       display: inline;
+    }
+    .ali{
+        padding: 1rem;
+    }
+    .pag{
+         background: url(/assets/img/page1.webp) no-repeat;
+         /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+         margin: 2rem 1rem;
+         background-size: cover;
+         background-position: center center;
+         height: 40vh;
+         position: relative;
+     }
+     .hull .card:hover{
+         transform: scale(1.03);
+     }
+     .cand .card:hover{
+         transform: scale(1.01);
+     }
+    
+     .ben{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+     .th{
+         column-gap: 15px;
+     }
+     .uxs{
+         display: flex;
+         /* align-items: center; */
+         gap: 1rem;
+         flex-direction: column;
+         padding-bottom: 1rem;
+         width: 100%;
+     }
+     .card .uxs:hover{
+         transform: translate(-3px);
+         color:rgb(0, 0, 82);
+         transition: all 4s ease;
+     }
+     .fg{
+         display: flex;
+         border-bottom: 1.5px solid gray;
+         padding-bottom: 5px;
+         width: 100%;
+         /* background: red; */
+         column-gap: 5px;
+     }
+     .uxs .fg:hover{
+         transform: scale(1.01);
+     }
+
+     .fg > img{
+         width: 45px;
+         height: 45px;
+     }
+     .feg{
+         display: flex;
+         flex-direction: column;
+         row-gap: 7px;
+     }
+     .th{
+         display: flex;
+     }
+     .cand{
+         display: flex;
+     }
+     .content img{
+         width: 90%;
+     }
+     .ret h6:hover{
+         color:rgb(0, 0, 82);
+     }
+     .ret .card:hover{
+         transform: scale(1.01);
+         border-radius: 20px;
+     }
+     .ret .card{
+         height: 100%;
+     }
+     .ret h6{
+         font-size: 1rem;
+         color: green;
+     }
+     .ret .row img{
+         padding: 1.0rem 1.5rem;
+         border-radius: 10px;
+     }
+     .pete{
+        background: url(/assets/img/ajob.png) no-repeat;
+    /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+        margin: 2rem;
+        background-size: cover;
+        background-position: center center;
+        height: 30vh;
+  }
+     
+     .peters{
+        background: url(/assets/img/texter.jpg) no-repeat;
+    /* clip-path: polygon(99% 0, 100% 100%, 0 100%, 0 19%); */
+        margin: 2rem 10rem;
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+  }
+  .emm{
+      color: rgb(0, 0, 82);
+  }
+  .contact{
+      background: url(/assets/img/contact1.jpg)no-repeat;
+      background-size: cover;
+  }
+  .contact span{
+      font-size: 1rem;
+      color: white;
+  }
+
+  .bun{
+      display: flex;
+  }
+  .cup{
+      position: relative;
+  }
+  .cup img{
+      position: absolute;
+  }
+  .cu{
+      left: 65%;
+      top: 50%;
+      animation: moveImage 10s ease-in-out infinite;
+  }
+  .cul{
+      animation: moveImageTop 10s ease-in-out infinite;
+  }
+
+  @keyframes moveImage {
+    0%{
+        left: 65%;
+    }
+    50%{
+        left:30%;
+    }
+
+    100%{
+        left: 65%;
+    }
+  }
+  @keyframes moveImageTop {
+    0%{
+        top: 0%;
+    }
+    50%{
+        top:10%;
+    }
+
+    100%{
+        top: 0%;
+    }
+  }
+
+  @media  (max-width:520px) {
+      .carousel-inner img{
+          height: 50vh;
+      }
+      .carousel-caption{
+          top: 0;
+          margin: 7rem auto;
+      }
+      .cat .card{
+          margin-bottom: 20px;
+      }
+      .simp .card{
+          margin-bottom: 20px;
+      }
+      .pele .card{
+          margin-bottom: 20px;
+      }
+      .cand .card{
+          margin-bottom: 20px;
+      }
+      .cont .row img{
+         height: 100%;
+         width: 100%;
+         padding-bottom: 2rem;
+     }
+     .cont{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .ter{
+        display: block;
+    }
+    .zen{
+        margin-bottom: 20px;
+    }
+    .peter{
+        height: 100%;
+        width: 100%;
+        margin: 0 0;
+    }
+    .aib{
+        /* height: 30%; */
+        width: 100%;
+        margin: 0 0;
+    }
+    .hull .card{
+        margin-bottom: 20px;
+    }
+    .ret .card,
+    .hgl{
+        margin-bottom: 20px;
+    }
+    .peters{
+         margin: 0 0;
+        height: 50%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cul{
+        
+        display: block;
+    }
+    .cup{
+        display: none;
+    }
+    
+  }
+     
+    

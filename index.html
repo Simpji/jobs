@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <!-- bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)">JobPortal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-evenly" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="find a job.html">find a Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="candidate.html">Candidate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page.html">page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search" />
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/img/job6.jpeg" alt="Los Angeles" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h2>The Easiest Way to Get <br>Your New Job</h2>
+                    <p>Each month, more than 3 million job seekers turn to
+                        website in their search for work</p>
+                    <button class="btn btn-blue">LEARN MORE ABOUT US</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/job4.jpeg" alt="Chicago" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <!-- <div class="row bg-primary py-5">
+                    </div> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/job5.webp" alt="New York" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="cat py-5">
+        <div class="container-fluid py-5 text-center">
+            <p class="lead">Browse by category</p>
+            <h1 class="">Find the job that’s perfect for you. about 800+ new jobs everyday</h1>
+            <div class="row">
+                <div class="col-md-11 m-auto pt-3">
+                    <div class="row py-5">
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design7.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design2.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/job2.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design3.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design1.webp" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design6.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design4.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card py-3">
+                                <div class="card-body">
+                                    <img src="./assets/img/design5.png" alt="">
+                                    <h6>Design & Creative</h6>
+                                    <h6 class="red">(1786)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple">
+        <div class="container-fluid cont">
+            <div class="row">
+                <div class="col-md-6 " data-aos="zoom-in-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <img src="./assets/img/job8.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="ayo">Your Future Starts Here</h1>
+                    <p>Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id
+                        elit. Duis sed odio sit
+                        amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio
+                        tincidunt auctora ornare
+                        odio.
+                        <br> <br>
+                        Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id
+                        elit. Duis sed odio sit
+                        amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio
+                        tincidunt auctora ornare
+                        odio.
+                        <br> <br>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis
+                        non nisi purus. Integer
+                        sit nostra, per inceptos himenaeos.
+                        <br> <br>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis
+                        non nisi purus. Integer
+                        sit nostra, per inceptos himenaeos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simp py-5">
+        <div class="container text-center">
+            <h1>Jobs of the day</h1>
+            <p>Search and connect with the right candidates faster.</p>
+            <div class="row">
+                <div class="col-md-11">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card">
+                                <div class="card-body pill">
+                                    <span><i class="bi bi-alipay"></i></span>
+                                    <span>Management</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card">
+                                <div class="card-body pill">
+                                    <span><i class="bi bi-whatsapp"></i></span>
+                                    <span>Marking & sale</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card">
+                                <div class="card-body pill">
+                                    <span><i class="bi bi-house-down-fill"></i></span>
+                                    <span>Fiance</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card">
+                                <div class="card-body pill">
+                                    <span></span>
+                                    <span>Human Resource</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card">
+                                <div class="card-body pill">
+                                    <span></span>
+                                    <span>Retail & Products</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card">
+                                <div class="card-body pill">
+                                    <span><i class="bi bi-alipay"></i></span>
+                                    <span>Content Writer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pele py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-5">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind1.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">LinkedIn
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind2.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">Adobe Simple
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>Full <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind3.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">Big Search
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind4.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">LinkedIn
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind5.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">LinkedIn
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind6.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">Quora Jsc
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind7.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">Nintendo
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-2 me-2 py-3">
+                                <img src="./assets/img/lind8.png" alt="">
+                            </div>
+                            <div class="col-8 py-3">
+                                <span class="cow">Periscope
+                                    <br>
+                                    New York, US</span>
+                            </div>
+                        </div>
+                        <div class="get py-3">
+                            <span>UI / UX <span class="autoType"></span></span>
+                        </div>
+                        <div class="come">
+                            <span><i class="bi bi-alipay"></i></span>
+                            <span>Fulltime</span>
+                            <span>4 minutes ago</span>
+                        </div>
+                        <div class="row py-3">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                                architectoeveniet, dolor quo repellendus pariatur</span>
+                        </div>
+                        <br>
+                        <div class="hey">
+                            <span>Adobe XD</span>
+                            <span>Figam</span>
+                            <span>Potoshop</span>
+                        </div>
+                        <div class="ioo">
+                            <span>Figma</span>
+                            <span>Adobe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <marquee behavior="" direction="" class="my-3"> <img src="./assets/img/lind1.png" alt="" style="gap: 2rem;">
+                <span class="px-2 fw-bold"><span class="autoType"></span></span>
+            </marquee>
+    </section>
+
+    <section class="pet">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="each py-5">
+        <div class="container text-center">
+            <h1>Great News</h1>
+            <span class="border">Get the latest news, updates and tips</span>
+            <div class="row my-5">
+                <div class="col-11">
+                    <div class="row">
+                        <div class="col-6" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="card">
+                                <img src="./assets/img/imgs1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="card">
+                                <img src="./assets/img/imgs2.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ter">
+        <section>
+            <div class="container py-5 text-dark">
+                <div class="row ter">
+                    <div class="col-3 zen">
+                        <div class="text-primary">
+                            <a href="">
+                                <h3>Job Portal</h3>
+                            </a>
+
+                            <p>About Us</p>
+                            <p>Our Team</p>
+                            <p>Projucts</p>
+                            <p>Contact</p>
+                        </div>
+                    </div>
+                    <div class="col-3 zen">
+                        <div class="text-primary">
+                            <a href="">
+                                <h3>Community</h3>
+                            </a>
+
+                            <p>Feature</p>
+                            <p>Pricing</p>
+                            <p>Credit</p>
+                            <p>FAQ</p>
+                        </div>
+                    </div>
+                    <div class="col-3 zen">
+                        <div class="text-primary">
+                            <a href="">
+                                <h3>Quick link</h3>
+                            </a>
+
+                            <p>!OS</p>
+                            <p>Android</p>
+                            <p>Microsft</p>
+                            <p>Desktop</p>
+                        </div>
+                    </div>
+                    <div class="col-3 zen">
+                        <div class="text-primary">
+                            <a href="">
+                                <h3>More</h3>
+                            </a>
+
+                            <p>Privacy</p>
+                            <p>Help</p>
+                            <p>Terms</p>
+                            <p>FQS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const elements = [...document.querySelectorAll('.autoType')];
+        elements.forEach((element) => {
+            var typed = new Typed(element, {
+                strings: [
+                    "Fulltime.",
+                    "Designer fulltime.",
+                    "Full Stack Engineer.",
+                    "Simple Jobs Portal.",
+
+                ],
+                typeSpeed: 70,
+                backSpeed: 60,
+                loop: true,
+            });
+        })
+    </script>
+</body>
+
+</html>
